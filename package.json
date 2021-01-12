@@ -1,0 +1,32 @@
+{
+  "name": "share-secrets",
+  "version": "0.0.1",
+  "description": "CLI to Share Secrets",
+  "main": "index.js",
+  "bin": {
+    "share-secrets": "bin/share.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagarhani/share-secrets-cli.git"
+  },
+  "keywords": [
+    "share-secrets",
+    "share",
+    "secrets",
+    "cli"
+  ],
+  "author": "sagarhani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sagarhani/share-secrets-cli/issues"
+  },
+  "homepage": "https://github.com/sagarhani/share-secrets-cli#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "node-fetch": "^2.6.1"
+  }
+}
