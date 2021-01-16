@@ -27,6 +27,7 @@
   "homepage": "https://github.com/sagarhani/share-secrets-cli#readme",
   "dependencies": {
     "esm": "^3.2.25",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "ora": "^5.2.0"
   }
 }
